@@ -41,12 +41,12 @@
 
 
 <!-- header-image -->
-<div class="alert alert-success shadow-lg">
-  <strong>Bilgilendirme! </strong>Koronavirüs vakalarından dolayı ofisimizden hizmet veremiyoruz.En yakın zamanda görüşmek dileğiyle.
+<div class="alert alert-success shadow-lg text-center">
+  <strong>Bilgilendirme! </strong>Koronavirüs vakalarından dolayı ofisimizden hizmet veremiyoruz. En yakın zamanda görüşmek dileğiyle.
 </div>
 <div class="contanier-fluid text-center">
-<img src="images/130-COVID-Virus.png" style="width: 20%;">
 <img src="images/9.png" style="width: 20%;">
+<img src="images/130-COVID-Virus.png" style="width: 20%;">
 <img src="images/124-sanitizer.png" style="width: 20%;">
 <img src="images/hand.png" style="width: 20%;">
 </div>
@@ -57,7 +57,7 @@
 
 <!--Carousel -->
 
-<div id="demo" class="carousel slide shadow-lg" data-ride="carousel" data-interval="2000">
+<div id="demo" class="carousel slide  text-center container" data-ride="carousel" data-interval="2000">
   <!-- indikator listesi-->
    <ul class="carousel-indicators">
       <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -103,6 +103,8 @@
       <span class="carousel-control-next-icon"></span>    
   </a>
     </div>
+  
+
   </div>
   <hr>
   <!-- carousel bitimi ->
@@ -110,8 +112,7 @@
    <!-- collapse -->
     <br>
    <div class="container ">
-    <div id="accordion">
-     
+    <div id="accordion"> 
     <div class="card">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapse1">
@@ -119,47 +120,51 @@
         </a>
       </div>
       <div id="collapse1" class="collapse show" data-parent="#accordion">
-        <div class="card-body">
+        <div class="card-body ">
           <!-- collaps içi card-->
             <div class="card-group">
   <div class="card">
     <img class="card-img-top" src="images/11.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body d-flex flex-column">
       <h5 class="card-title">821.000.000 Kişi</h5>
+
       <p class="card-text"> Beş BM örgütü tarafından hazırlanan rapora göre, dünyada 821 milyon kişi açlık çekiyor.</p>
         <!-- Modal başlangıç -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-    Detaylar
-  </button>
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-           <img src="images/hero_1.jpg" width="100%" height="100%">  
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <button type="button"  class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal">
+        Detaylar
+        </button>
+
+
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <img src="images/hero_1.jpg" width="100%" height="100%">  
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                Beş BM örgütü tarafından hazırlanan rapora göre, dünyada 821 milyon kişi açlık çekiyor. Bu sayının arttığına dikkat çeken yetkililer, açlık ve yetersiz beslenmenin başlıca nedeninin iklim değişikliği olduğunu belirtti.Raporda, dünyada açlık çekenlerin sayısının son üç yılda arttığına dikkat çekilerek, sayıların on yıl önceki düzeye gerilediği belirtildi. BM, savaşların yanı sıra ekonomik krizlerin ve iklim değişikliklerinin gıda alanında krize yol açtığını vurguladı. Raporda, iklim değişiklikleri nedeniyle yağmurların erken veya geç yağdığı  ya da kuraklık ve aşırı yağış gözlemlendiği belirtildi.
+              </div>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Modal body -->
-        <div class="modal-body">
-          Beş BM örgütü tarafından hazırlanan rapora göre, dünyada 821 milyon kişi açlık çekiyor. Bu sayının arttığına dikkat çeken yetkililer, açlık ve yetersiz beslenmenin başlıca nedeninin iklim değişikliği olduğunu belirtti.Raporda, dünyada açlık çekenlerin sayısının son üç yılda arttığına dikkat çekilerek, sayıların on yıl önceki düzeye gerilediği belirtildi. BM, savaşların yanı sıra ekonomik krizlerin ve iklim değişikliklerinin gıda alanında krize yol açtığını vurguladı. Raporda, iklim değişiklikleri nedeniyle yağmurların erken veya geç yağdığı  ya da kuraklık ve aşırı yağış gözlemlendiği belirtildi.
-        </div>
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
-        </div>
-      </div>
-    </div>
-  </div>
         <!-- Modal bitiş -->
     </div>
   </div>
                 <!-- Modal başlangıç -->
   <div class="card">
     <img class="card-img-top" src="images/iklim.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body d-flex flex-column">
       <h5 class="card-title">İklim Değişikliği</h5>
       <p class="card-text">BM, savaşların yanı sıra ekonomik krizlerin ve iklim değişikliklerinin gıda alanında krize yol açtığını vurguladı.</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal09">
+        <button type="button"  class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal09">
     Detaylar
   </button>
   <div class="modal fade" id="myModal09">
@@ -187,10 +192,10 @@
                <!-- Modal başlangıç -->
   <div class="card">
     <img class="card-img-top" src="images/gıdasızlık.jpg"alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body d-flex flex-column">
       <h5 class="card-title">Gıda Fiyatlarında Artış</h5>
-      <p class="card-text">Zengin yeraltı kaynakları ve tarıma elverişli toprakları olmasına rağmen iç savaş sebebiyle büyük gıda krizi yaşayan Güney Sudan'da, 4,9 milyon kişi acil yardım bekliyor.</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal08">
+      <p class="card-text">Zengin yeraltı kaynaklç savaş sebebiyle büyük gıda krizi yaşayan Güney Sudan'da, 4,9 milyon kişi acil yardım bekliyor.</p>
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal08">
     Detaylar
   </button>
   <div class="modal fade" id="myModal08">
@@ -235,11 +240,11 @@
             <div class="card-group">
   <div class="card">
     <img class="card-img-top" src="images/su.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">Su Yetersizliği</h5>
-      <p class="card-text">UNICEF'in 2017 yılında yayınladığı raporunun, suyla ilgili tüm dünyanın endişelerini ortaya koyması bizi haklı gösterebilir. Raporda, 2015 yılında Dünya nüfusunun yüzde 11'inin (844 milyon kişi) suya erişimi olmadığı belirtiliyor.</p>
+      <p class="card-text">UNICEF'in 2017 yılında yayınladığı raporunun, suyla ilgili tüm dünyanın endişelerini ortaya koyması bizi haklı gösterebilir. Raporda, 2015 yılında Dünya nüfusunun yüzde 11'inin suya erişimi olmadığı belirtiliyor.</p>
         <!-- Modal başlangıç -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal2">
    Detaylar
   </button>
   <div class="modal fade" id="myModal2">
@@ -267,11 +272,11 @@
   </div>
   <div class="card">
     <img class="card-img-top" src="images/14.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">Hayati Faaliyetler</h5>
-      <p class="card-text">Afrika'daki su kıtlığı, kıtadaki hayati faaliyetleri de doğal olarak etkiliyor.</p>
+      <p class="card-text">Afrika'daki su kıtlığı, kıtadaki hayati faaliyetleri de doğal olarak etkiliyor. Bunların başında da kıta için merkezi bir öneme sahip olan tarım geliyor.</p>
           <!-- Modal başlangıç -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal4">
    Detaylar
   </button>
   <div class="modal fade" id="myModal4">
@@ -298,11 +303,11 @@
   </div>
   <div class="card">
     <img class="card-img-top" src="images/temizsu.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">Temiz Su</h5>
-      <p class="card-text">Afrika’da yaklaşık bir milyar insan sağlıklı ve temiz suya erişemiyor. </p>
+      <p class="card-text">Afrika’da yaklaşık bir milyar insan sağlıklı ve temiz suya erişemiyor.Artan kuraklık ve çölleşme nedeniyle bu trendler daha da kötüye gitmektedir. </p>
           <!-- Modal başlangıç -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal3">
     Detaylar
   </button>
   <div class="modal fade" id="myModal3">
@@ -315,7 +320,7 @@
         </div>
         <!-- Modal body -->
         <div class="modal-body">
-         Afrika’da yaklaşık bir milyar insan sağlıklı ve temiz suya erişemiyor. 
+         Afrika’da yaklaşık bir milyar insan sağlıklı ve temiz suya erişemiyor.
           Birleşmiş Milletler (BM) dünyada her yıl 2 milyondan fazla insanın sağlıksız sulardan kaptıkları hastalıklar nedeniyle öldüklerini belirtirken Sahra Altı Afrika ülkelerindeki 680 milyon insanın sadece yüzde 60'ının güvenli su kaynaklarına erişebildiği tahmin ediliyor.
         </div>
         
@@ -351,14 +356,14 @@
             <div class="card-group">
   <div class="card">
     <img class="card-img-top" src="images/hastalık.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">Bulaşıcı!</h5>
       <p class="card-text">Sıtma, çocuk felci, uyku hastalığı (trypanosomiase), isala bağlı hastalıklar, kolera, verem gibi hastalıklar birkaç Afrika topluluğunda ciddi boyutlarda zararlara neden olmuştur.
     </p>
         
         <!-- Modal başlangıç -->
         
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal07">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal07">
     Detaylar
   </button>
   <div class="modal fade" id="myModal07">
@@ -392,14 +397,14 @@
   </div>
   <div class="card">
     <img class="card-img-top" src="images/HUMANjpg.jpg"  alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">Sıtma</h5>
       <p class="card-text"> Afrika’da ölen her yüz çocuktan onunun ölüm sebebi olan hastalık sıtmadır.</p>
         
    
           <!-- Modal başlangıç -->
         
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal06">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal06">
     Detaylar
   </button>
   <div class="modal fade" id="myModal06">
@@ -431,7 +436,7 @@
   </div>
   <div class="card">
     <img class="card-img-top" src="images/aids.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body card-body d-flex flex-column">
       <h5 class="card-title">AIDS</h5>
       <p class="card-text"> AIDS’le mücadele, BM’de 2000 yılında 189 ülkenin altına imza koyduğu milenyum hedefleri arasında yer alıyor. Her yıl AIDS’den ölen 3 milyon kişiden 2,3’ü Afrika’da yaşıyor.</p>
         
@@ -439,7 +444,7 @@
         
           <!-- Modal başlangıç -->
         
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal05">
+        <button type="button" class="align-self-end btn btn-lg btn-block btn-success" style="margin-top: auto;" data-toggle="modal" data-target="#myModal05">
     Detaylar
   </button>
   <div class="modal fade" id="myModal05">
@@ -476,22 +481,22 @@
       </div>
     </div>
         
-<div class="container-fluid"><img src="images/sesver.jpg"style="width:100%; height:80%;"></div>
+<div class="container-fluid"><img src="images/4.jpg"style="width:100%; height:80%;"></div>
 
 <hr>
 
     <!-- jumbotron -->
-<div class="jumbotron jumbotron-fluid shadow-lg">
-  <div class="container shadow-lg">      
-    <p class="text-center"><br></br>Dünyada her gün ortalama 25.000 kişi açlıktan ölüyor.</p>
-      <h5 class="text-center ">#Ses Ver!<br></h5>
+<div class="jumbotron bg-success text-white p-0">
+      
+    <p class="text-center font-weight-light"><br></br>Dünyada her gün ortalama 25.000 kişi açlıktan ölüyor.</p><br>
+      <h5 class="text-center font-italic ">#Ses Ver!<br></h5><br>
   </div>
-</div>
+
     <!-- jumbotron bitimi -->
 
 <hr>
       <!-- video -->
-    <div class="embed-responsive embed-responsive-16by9 shadow-lg">
+    <div class="embed-responsive embed-responsive-16by9 shadow-lg" style="width:70%; display: block; margin: 0 auto;">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VC7rsWVI7so" allowfullscreen></iframe>
     </div>
       <!-- video -->
@@ -500,88 +505,119 @@
 </div>
   </div>
     </div>
-
+<hr>
  <!-- Footer -->
+<footer class="page-footer font-small indigo">
 
-<div class="container-fluid">
-  <div class="row">
-    	<div class="col-md-12">
-    	    <footer class="footer">				
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 m-b-30">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Hakkımızda
-					</div>	
-					<p class="white-text">
-            İnsanı yardıma muhtaç hâle getiren ve mazlum eden her türlü politika ve faaliyetleri önlemek üzere tüm insanların temel hak ve hürriyetlerinin ihlal edilmemesi için gerekli çalışmaları yapmak.
-					</p>
-				</div>
-				<div class="col-md-3 m-b-30">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Bilgi
-					</div>	
-					<div class="footer-links">
-						<a href="sesver.html">
-							Sesver
-						</a>
-						<a href="arastirmalar.html">
-							Araştırmalar
-						</a>
-						<a href="bagispaketleri.html">
-							Paketler
-						</a>
-						<a href="iletisim.html">
-							İletişim
-						</a>
-					</div>
-				</div>
-		
-				<div class="col-md-3 m-b-30">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Makaleler
-					</div>	
-					<div class="footer-links">
-						<a href="arastirmalar.html">
-							Dünden Bugüne Afrika
-						</a>
-						<a href="arastirmalar2.html">
-							İklim Değişikliği
-						</a>
-						<a href="arastirmalar3.html">
-						Su Problemi
-						</a>
-						
-					</div>
-          <br>
-					<div class="footer-social-links m-t-30">
-						<li>
-							<a href="https://www.facebook.com/">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-							<a href="https://twitter.com/">
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-							</a>
-							<a href="https://www.linkedin.com/">
-								<i class="fa fa-linkedin" aria-hidden="true"></i>
-							</a>
-							<a href="https://www.youtube.com/">
-								<i class="fa fa-youtube" aria-hidden="true"></i>
-							</a>
-						</li>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<div class="footer-bottom">
-		#sesver
-	</div>
-    	</div>
-	</div>
-</div>
+  <!-- Footer Link -->
+  <div class="container-fluid">
 
-<!-- Footer bitiş -->   
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="sesver.html">Sesver</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="arastirmalar.html">Araştırmalar</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="bagispaketleri.html">Paketler</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="hakkimizda.html">Hakkımızda</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3 ">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="iletisim.html">İLETİŞİM</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5 text-monospace ">
+        <p style="line-height: 1.7rem">Sesver vakfı; bölge, din, dil, ırk ve mezhep ayrımı yapmaksızın dünyanın herhangi bir yerinde sıkıntıya düşmüş, felakete uğramış, zulüm görmüş, aç ve açıkta kalmış; savaş, tabii afet gibi sebeplerle mağdur olmuş, yaralanmış, sakat kalmış; evsiz, yurtsuz, tüm insanlara insani yardım ulaştırmak ve bu insanların temel hak ve hürriyetlerinin ihlal edilmesini önlemek üzere 2019 yılından bu yana çalışmaktadır.</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-12 text-center">
+
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+          
+            <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i></a>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+        
+            <a href="https://www.twitter.com/">  <i class="fab fa-twitter fa-lg white-text mr-4"> </i></a>
+          </a>
+         
+          <!--Linkedin -->
+          <a class="li-ic">
+            
+            <a href="https://www.linkedin.com/">  <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i></a>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            
+            <a href="https://www.instagram.com/">  <i class="fab fa-instagram fa-lg white-text mr-4"> </i></a>
+          </a>
+         
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Links -->
+
+
+</footer>
+<!-- Footer -->
+
   
 </body>    
     
